@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #ffe6f0;
+    color: #900048;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    background: #fff0f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #cc99aa;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    color: #d1004b;
+}
+
+.galeria img {
+    width: 45%;
+    margin: 5px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.galeria img:hover {
+    transform: scale(1.05);
+}
+.galeria {
+    display: flex;        /* Coloca as fotos em linha */
+    justify-content: center; /* Centraliza horizontalmente */
+    flex-wrap: wrap;      /* Se não couber na tela, quebra linha automaticamente */
+    gap: 10px;            /* Espaço entre as fotos */
+}
+
+.galeria img {
+    width: 150px;         /* Ajusta o tamanho da foto */
+    border-radius: 10px;  /* Cantos arredondados */
+    transition: transform 0.3s;
+}
+
+.galeria img:hover {
+    transform: scale(1.05); /* Pequeno zoom ao passar o mouse */
+}
+.galeria {
+    display: flex;           /* Coloca as fotos lado a lado */
+    justify-content: center; /* Centraliza horizontalmente */
+    flex-wrap: wrap;         /* Quebra linha se não couber */
+    gap: 20px;               /* Espaço entre as fotos */
+}
+
+.foto-com-legenda {
+    text-align: center;      /* Centraliza a legenda embaixo da foto */
+}
+
+.foto-com-legenda img {
+    width: 150px;            /* Tamanho da foto */
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.foto-com-legenda img:hover {
+    transform: scale(1.05);  /* Zoom quando passa o mouse */
+}
+
+.legenda {
+    margin-top: 5px;
+    font-size: 0.9em;
+    color: #900048;
+}
+.galeria {
+    display: flex;           /* Coloca os blocos lado a lado */
+    justify-content: center;
+    flex-wrap: wrap;         /* Se não couber na tela, quebra linha */
+    gap: 30px;               /* Espaço entre os blocos */
+}
+
+.foto-com-legenda-lado {
+    display: flex;           /* Coloca a foto e a legenda em linha */
+    align-items: center;     /* Centraliza verticalmente legenda e foto */
+    gap: 10px;               /* Espaço entre foto e legenda */
+}
+
+.foto-com-legenda-lado img {
+    width: 150px;            /* Tamanho da foto */
+    border-radius: 10px;
+}
+
+.legenda {
+    font-size: 1em;
+    color: #900048;
+}
